@@ -2,7 +2,7 @@
 
 Time to move forward with a better base.
 
-VirtOS is bound to be one of its kind, fully browser dwelling webapp. 
+VirtOS is bound to be one of its kind, fully browser dwelling OS. 
 
 TODO:
 - Everything
