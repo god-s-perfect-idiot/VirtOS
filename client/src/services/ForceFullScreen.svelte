@@ -1,9 +1,10 @@
 <script>
-    import FullScreen from 'svelte-fullscreen'
+    import Fullscreen from 'svelte-fullscreen'
 </script>
 
-<FullScreen let:onRequest>
+<Fullscreen let:onRequest let:onExit>
     <div>
-        <button on:load={() => onRequest()}>FullScreen</button>
+      <button on:click={() => onRequest()}>FullScreen</button>
+      <button on:click={() => onExit()}>Screen</button>
     </div>
-</FullScreen>
+  </Fullscreen>
