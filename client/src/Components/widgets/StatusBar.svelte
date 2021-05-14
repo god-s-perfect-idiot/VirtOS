@@ -1,6 +1,8 @@
 <script>
     import Clock from '../../services/Clock.svelte'
     import Battery from '../../services/Battery.svelte'
+    import Network from '../../services/Network.svelte'
+    import WiFi from '../../services/WiFi.svelte'
 </script>
 
 <style>
@@ -32,11 +34,15 @@
 
 <table class='status-bar'>
     <tr>
+        <td>
+            <Network/>
+        </td>
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
-        <td></td>
+        <td>
+            <WiFi/>
+        </td>
         <td></td>
         <td></td>
         <td></td>

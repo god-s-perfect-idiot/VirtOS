@@ -15,8 +15,14 @@
 	});
 </script>
 
+<style>
+    .time {
+        margin: auto;
+        transform: translate(0%, -5%);
+    }
+</style>
 
-<div>
+<div class='time'>
     <span>
         {_time}
     </span>
