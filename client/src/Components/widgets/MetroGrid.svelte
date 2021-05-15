@@ -1,18 +1,17 @@
 <style>
     .widgets {
-        width: 90%;
+        margin-top: 80px;
+        width: 98%;
         height: 85%;
-        margin: 5%;
         background-color: #483d8b;
         table-layout: fixed;
+        overflow: auto;
     }
     table, th, td {
-        border: 1px solid black;
+        border: 5px solid black;
     }
-    .widgets td{
-        height: 20px;
-        max-height: 20px;
-        min-height: 20px;
+    td {
+        height: 60px;
     }
     .red {
         background-color: red;
@@ -31,17 +30,7 @@
 
 <table class='widgets'>
     <tr>
-        <td class='midnight-blue'></td>
-        <td class='midnight-blue'></td>
-        <td class='midnight-blue' colspan="2" rowspan="2"></td>
-        <td class='midnight-blue' colspan="2" rowspan="2"></td>
-    </tr>
-    <tr>
-        <td class='midnight-blue'></td>
-        <td class='midnight-blue'></td>
-    </tr>
-    <tr>
-        <td class='midnight-blue'></td>
+        <td class='midnight-blue'  height='60px'></td>
         <td class='midnight-blue'></td>
         <td class='midnight-blue' colspan="2" rowspan="2"></td>
         <td class='midnight-blue' colspan="2" rowspan="2"></td>
@@ -51,53 +40,29 @@
         <td class='midnight-blue'></td>
     </tr>
     <tr>
-        <td class='midnight-blue'></td>
-        <td class='midnight-blue'></td>
         <td class='midnight-blue' colspan="2" rowspan="2"></td>
-        <td class='midnight-blue' colspan="2" rowspan="2"></td>
-    </tr>
-    <tr>
-        <td class='midnight-blue'></td>
-        <td class='midnight-blue'></td>
-    </tr>
-    <tr>
-        <td class='midnight-blue'></td>
-        <td class='midnight-blue'></td>
         <td class='midnight-blue' colspan="2" rowspan="2"></td>
         <td class='midnight-blue' colspan="2" rowspan="2"></td>
     </tr>
     <tr>
-        <td class='midnight-blue'></td>
-        <td class='midnight-blue'></td>
     </tr>
     <tr>
-        <td class='midnight-blue'></td>
-        <td class='midnight-blue'></td>
         <td class='midnight-blue' colspan="2" rowspan="2"></td>
+        <td class='midnight-blue' colspan="4" rowspan="2"></td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
         <td class='midnight-blue' colspan="2" rowspan="2"></td>
-    </tr>
-    <tr>
-        <td class='midnight-blue'></td>
-        <td class='midnight-blue'></td>
-    </tr>
-    <tr>
-        <td class='midnight-blue'></td>
-        <td class='midnight-blue'></td>
         <td class='midnight-blue' colspan="2" rowspan="2"></td>
         <td class='midnight-blue' colspan="2" rowspan="2"></td>
     </tr>
     <tr>
-        <td class='midnight-blue'></td>
-        <td class='midnight-blue'></td>
     </tr>
     <tr>
-        <td class='midnight-blue'></td>
-        <td class='midnight-blue'></td>
-        <td class='midnight-blue' colspan="2" rowspan="2"></td>
+        <td class='midnight-blue' colspan="4" rowspan="2"></td>
         <td class='midnight-blue' colspan="2" rowspan="2"></td>
     </tr>
     <tr>
-        <td class='midnight-blue'></td>
-        <td class='midnight-blue'></td>
     </tr>
 </table>

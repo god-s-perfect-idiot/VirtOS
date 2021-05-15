@@ -16,6 +16,8 @@
         table-layout: auto;
         background-color: black;
         width: 100%;
+        position: fixed;
+        top: 0;
     }
     .clock {
         widows: 50px;
