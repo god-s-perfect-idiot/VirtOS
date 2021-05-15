@@ -38,6 +38,22 @@
         right: 0;
         bottom: 0;
     }
+    .dark-red {
+        background-color: darkred;
+    }
+    .pantone {
+        background-color: #FF4500;
+    }
+    .instagram {
+        background-color: white;
+        color: #833AB4;
+    }
+    .steam{
+        background-color: #171a21;
+    }
+    .light-green{
+        background-color: #25D366;
+    }
     .icon-text{
         margin-bottom: 0%;
         position: relative;
@@ -88,27 +104,63 @@
                 <i class="fa-3x fas fa-circle-notch"></i>
             </div>
         </td>
-        <td class='midnight-blue' colspan="2" rowspan="2"></td>
-        <td class='midnight-blue' colspan="2" rowspan="2"></td>
+        <td class='midnight-blue' colspan="2" rowspan="2">
+            <div class='data-icon'>
+                <i class="fa-3x fas fa-camera-retro"></i>
+            </div>
+        </td>
+        <td class='dark-red' colspan="2" rowspan="2">
+            <div class='data-icon'>
+                <i class="fa-3x fas fa-cog"></i>
+            </div>
+        </td>
     </tr>
     <tr>
     </tr>
     <tr>
-        <td class='midnight-blue' colspan="2" rowspan="2"></td>
-        <td class='midnight-blue' colspan="4" rowspan="2"></td>
+        <td class='midnight-blue' colspan="2" rowspan="2">
+            <div class='data-icon'>
+                <i class="fa-3x fas fa-headphones-alt"></i>
+            </div>
+        </td>
+        <td class='pantone' colspan="4" rowspan="2">
+            <div class='data-icon'>
+                <i class="fa-3x fab fa-reddit-square"></i>
+            </div>
+        </td>
     </tr>
     <tr>
     </tr>
     <tr>
-        <td class='midnight-blue' colspan="2" rowspan="2"></td>
-        <td class='midnight-blue' colspan="2" rowspan="2"></td>
-        <td class='midnight-blue' colspan="2" rowspan="2"></td>
+        <td class='midnight-blue' colspan="2" rowspan="2">
+            <div class='data-icon'>
+                <i class="fa-3x fas fa-newspaper"></i>
+            </div>
+        </td>
+        <td class='instagram' colspan="2" rowspan="2">
+            <div class='data-icon'>
+                <i class="fa-3x fab fa-instagram"></i>
+            </div>
+        </td>
+        <td class='midnight-blue' colspan="2" rowspan="2">
+            <div class='data-icon'>
+                <i class="fa-3x fas fa-book"></i>
+            </div>
+        </td>
     </tr>
     <tr>
     </tr>
     <tr>
-        <td class='midnight-blue' colspan="4" rowspan="2"></td>
-        <td class='midnight-blue' colspan="2" rowspan="2"></td>
+        <td class='steam' colspan="4" rowspan="2">
+            <div class='data-icon'>
+                <i class="fa-3x fab fa-steam-square"></i>
+            </div>
+        </td>
+        <td class='light-green' colspan="2" rowspan="2">
+            <div class='data-icon'>
+                <i class="fa-3x fab fa-whatsapp"></i>
+            </div>
+        </td>
     </tr>
     <tr>
     </tr>
