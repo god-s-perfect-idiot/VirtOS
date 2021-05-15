@@ -22,7 +22,7 @@
     .clock {
         widows: 50px;
         text-align: right;
-        padding-right: 2%;
+        padding-right: 5%;
         width: 7%;
         font-size: medium;
         
