@@ -14,7 +14,7 @@
         display: table;
         font-family: 'SegoeWP';
         table-layout: auto;
-        background-color: darkcyan;
+        background-color: black;
         width: 100%;
     }
     .clock {

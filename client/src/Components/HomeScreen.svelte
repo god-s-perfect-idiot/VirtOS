@@ -1,6 +1,7 @@
 <script>
     //import ForceFullScreen from '../services/ForceFullScreen.svelte'
     import StatusBar from './widgets/StatusBar.svelte'
+    import MetroGrid from './widgets/MetroGrid.svelte'
 </script>
 
 <style>
@@ -15,5 +16,6 @@
 
 <div class='ui-black'>
     <StatusBar/>
+    <MetroGrid/>
 </div>
 <!-- <ForceFullScreen/> -->
