@@ -1,5 +1,5 @@
 <script>
-    import Homescreen from './Components/HomeScreen.svelte';
+    import Screen from './Components/Screen.svelte';
 </script>
 
-<Homescreen/>
+<Screen/>
