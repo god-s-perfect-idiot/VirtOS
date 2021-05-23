@@ -3,7 +3,10 @@
     import StatusBar from './widgets/StatusBar.svelte'
     import MetroGrid from './widgets/MetroGrid.svelte'
     import NavBar from './widgets/NavBar.svelte'
+    import AppList from './widgets/AppList.svelte'
+
     import { handleGesture } from '../services/SwipeDetect.svelte';
+    
     import { onMount } from 'svelte'
     import { slide, fly } from 'svelte/transition'
 
@@ -50,6 +53,8 @@
     <StatusBar/>
     {#if content === 'homescreen'} 
         <MetroGrid/>
+    {:else if content === 'apps'}
+        <AppList/>
     {/if}
     <NavBar/>
 </div>
