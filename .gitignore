@@ -1,3 +1,4 @@
 server/app/node_modules
 server/node_modules
 client/node_modules
+gui-kit/node_modules
