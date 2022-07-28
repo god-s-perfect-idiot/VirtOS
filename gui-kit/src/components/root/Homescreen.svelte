@@ -7,8 +7,8 @@
 
 <style>
     body {
-        background-color: #021702;
-        color: #FFFDD0;
+        background-color: var(--forestgreen);
+        color: var(--cream);
     }
 </style>
 

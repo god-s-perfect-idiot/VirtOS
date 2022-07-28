@@ -1,5 +1,6 @@
 <script>
     import Clock from "./Clock.svelte";
+    import Stopwatch from "./Stopwatch.svelte";
 </script>
 
 <style>
@@ -10,5 +11,6 @@
 </style>
 
 <div class="overview">
-    <Clock/>
+    <!-- <Clock/> -->
+    <Stopwatch/>
 </div>
