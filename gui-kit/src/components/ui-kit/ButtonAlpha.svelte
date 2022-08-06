@@ -3,6 +3,7 @@
     export let height;
     export let text="";
     export let inverted=false;
+    export let spacing=0;
 </script>
 
 <style>
@@ -24,7 +25,7 @@
     }
 </style>
 
-<div class="button-alpha {inverted ? "inverted" : "regular"}" style="width: {width}; height: {height}" on:click>
+<div class="button-alpha {inverted ? "inverted" : "regular"}" style="width: {width}; height: {height}; margin-left:{spacing}rem; margin-right:{spacing}rem" on:click>
     {text || ''}
     <slot/>
 </div>

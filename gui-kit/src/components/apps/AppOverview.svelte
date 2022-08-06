@@ -1,6 +1,8 @@
 <script>
     import Clock from "./Clock.svelte";
     import Stopwatch from "./Stopwatch.svelte";
+    import Browser from "./Browser.svelte";
+    import {current} from "../_storage/store.js";
 </script>
 
 <style>
@@ -11,6 +13,11 @@
 </style>
 
 <div class="overview">
-    <!-- <Clock/> -->
-    <Stopwatch/>
+    {#if $current === "app:browser"}
+        <Browser/>
+    {:else if $current === "app:stopwatch"}
+        <Stopwatch/>
+    {:else if $current === "app:clock"}
+        <Clock/>
+    {/if}
 </div>

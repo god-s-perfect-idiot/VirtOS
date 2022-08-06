@@ -1,3 +1,10 @@
+<script>
+    import {current} from '../_storage/store';
+    const viewApps = () => {
+        $current = 'sys:applist';
+    }
+</script>
+
 <style>
     .dock ion-icon {
         font-size: 6rem;
@@ -11,5 +18,5 @@
 </style>
 
 <div class="dock"> 
-    <ion-icon name="chevron-up-outline"></ion-icon>
+    <ion-icon name="chevron-up-outline" on:click={viewApps}></ion-icon>
 </div>

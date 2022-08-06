@@ -48,6 +48,10 @@
         clearInterval(runnerId);
     }
 
+    const reset = () => {
+        counter = 0;
+    }
+
 </script>
 
 <div class="stopwatch">
@@ -64,6 +68,7 @@
                         width="8rem"
                         height="8rem"
                         inverted=true
+                        spacing=2
                         on:click = {start}
                     >
                         <ion-icon name="play-outline"></ion-icon>
@@ -73,11 +78,21 @@
                         width="8rem"
                         height="8rem"
                         inverted=true
+                        spacing=2
                         on:click = {stop}
                     >
                         <ion-icon name="pause-circle-outline"></ion-icon>
                     </ButtonAlpha>
                 {/if}
+                <ButtonAlpha
+                    width="8rem"
+                    height="8rem"
+                    inverted=true
+                    spacing=2
+                    on:click = {reset}
+                >
+                    <ion-icon name="refresh-outline"></ion-icon>
+                </ButtonAlpha>
             </div>
         </tr>
     </table>
